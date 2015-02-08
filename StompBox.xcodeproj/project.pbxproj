@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		7B759B111A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */; };
 		7B759B121A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */; };
+		7B759B151A87233D003C19EB /* Jewel1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B131A87233D003C19EB /* Jewel1.jpeg */; };
+		7B759B161A87233D003C19EB /* Jewel1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B131A87233D003C19EB /* Jewel1.jpeg */; };
+		7B759B171A87233D003C19EB /* jewel2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B141A87233D003C19EB /* jewel2.jpeg */; };
+		7B759B181A87233D003C19EB /* jewel2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B141A87233D003C19EB /* jewel2.jpeg */; };
+		7B759B1A1A87245F003C19EB /* yellow-light-bulb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B191A87245F003C19EB /* yellow-light-bulb.jpg */; };
+		7B759B1B1A87245F003C19EB /* yellow-light-bulb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B191A87245F003C19EB /* yellow-light-bulb.jpg */; };
 		7BF2E8551A85E99400777FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8541A85E99400777FDE /* Foundation.framework */; };
 		7BF2E8571A85E99400777FDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8561A85E99400777FDE /* CoreGraphics.framework */; };
 		7BF2E8591A85E99400777FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8581A85E99400777FDE /* UIKit.framework */; };
@@ -38,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg; sourceTree = "<group>"; };
+		7B759B131A87233D003C19EB /* Jewel1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jewel1.jpeg; sourceTree = "<group>"; };
+		7B759B141A87233D003C19EB /* jewel2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jewel2.jpeg; sourceTree = "<group>"; };
+		7B759B191A87245F003C19EB /* yellow-light-bulb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "yellow-light-bulb.jpg"; sourceTree = "<group>"; };
 		7BF2E8511A85E99400777FDE /* StompBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StompBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF2E8541A85E99400777FDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BF2E8561A85E99400777FDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +126,9 @@
 		7BF2E85A1A85E99400777FDE /* StompBox */ = {
 			isa = PBXGroup;
 			children = (
+				7B759B191A87245F003C19EB /* yellow-light-bulb.jpg */,
+				7B759B131A87233D003C19EB /* Jewel1.jpeg */,
+				7B759B141A87233D003C19EB /* jewel2.jpeg */,
 				7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */,
 				7BF2E8631A85E99400777FDE /* AppDelegate.h */,
 				7BF2E8641A85E99400777FDE /* AppDelegate.m */,
@@ -236,10 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF2E86B1A85E99400777FDE /* Main_iPad.storyboard in Resources */,
+				7B759B171A87233D003C19EB /* jewel2.jpeg in Resources */,
 				7BF2E8701A85E99400777FDE /* Images.xcassets in Resources */,
 				7B759B111A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */,
+				7B759B151A87233D003C19EB /* Jewel1.jpeg in Resources */,
 				7BF2E8681A85E99400777FDE /* Main_iPhone.storyboard in Resources */,
 				7BF2E85F1A85E99400777FDE /* InfoPlist.strings in Resources */,
+				7B759B1A1A87245F003C19EB /* yellow-light-bulb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B759B181A87233D003C19EB /* jewel2.jpeg in Resources */,
+				7B759B161A87233D003C19EB /* Jewel1.jpeg in Resources */,
+				7B759B1B1A87245F003C19EB /* yellow-light-bulb.jpg in Resources */,
 				7B759B121A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */,
 				7BF2E8811A85E99500777FDE /* InfoPlist.strings in Resources */,
 			);
