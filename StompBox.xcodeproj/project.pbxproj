@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B759B111A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */; };
+		7B759B121A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */; };
 		7BF2E8551A85E99400777FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8541A85E99400777FDE /* Foundation.framework */; };
 		7BF2E8571A85E99400777FDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8561A85E99400777FDE /* CoreGraphics.framework */; };
 		7BF2E8591A85E99400777FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8581A85E99400777FDE /* UIKit.framework */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg; sourceTree = "<group>"; };
 		7BF2E8511A85E99400777FDE /* StompBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StompBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF2E8541A85E99400777FDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BF2E8561A85E99400777FDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,7 @@
 		7BF2E85A1A85E99400777FDE /* StompBox */ = {
 			isa = PBXGroup;
 			children = (
+				7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */,
 				7BF2E8631A85E99400777FDE /* AppDelegate.h */,
 				7BF2E8641A85E99400777FDE /* AppDelegate.m */,
 				7BF2E8661A85E99400777FDE /* Main_iPhone.storyboard */,
@@ -233,6 +237,7 @@
 			files = (
 				7BF2E86B1A85E99400777FDE /* Main_iPad.storyboard in Resources */,
 				7BF2E8701A85E99400777FDE /* Images.xcassets in Resources */,
+				7B759B111A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */,
 				7BF2E8681A85E99400777FDE /* Main_iPhone.storyboard in Resources */,
 				7BF2E85F1A85E99400777FDE /* InfoPlist.strings in Resources */,
 			);
@@ -242,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B759B121A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */,
 				7BF2E8811A85E99500777FDE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,7 +335,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -368,7 +375,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -393,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StompBox/StompBox-Prefix.pch";
 				INFOPLIST_FILE = "StompBox/StompBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StompBox/StompBox-Prefix.pch";
 				INFOPLIST_FILE = "StompBox/StompBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +480,7 @@
 				7BF2E8881A85E99500777FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BF2E8891A85E99500777FDE /* Build configuration list for PBXNativeTarget "StompBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +489,7 @@
 				7BF2E88B1A85E99500777FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
