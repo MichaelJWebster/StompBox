@@ -234,6 +234,8 @@ void *TimerThreaded::timerThreaded(void *data)
     {
         while (parent->getWaitTime() != 0)
         {
+            NSLog(@"Wait time in TimerThreaded is: %llu", parent->getWaitTime());
+            NSLog(@"BPM is: %llu", 60 * NANOS_PER_SEC / parent->getWaitTime());
             uint64_t time_to_wait = nanos_to_abs(parent->getWaitTime());
             mach_wait_until(now + time_to_wait);
             now = mach_absolute_time();

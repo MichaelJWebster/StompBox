@@ -13,11 +13,12 @@
 {
     id<TickResponder> fTickResponder;
     TimerThreaded* fTimer;
-    bool isRunning;
+    //bool isRunning;
     NSOperationQueue* fOpQueue;
 }
 
 @synthesize fDelayMs;
+@synthesize isRunning;
 
 -(id)init
 {
@@ -27,7 +28,10 @@
         isRunning = false;
         fTimer->setTimer();
         fOpQueue = [[NSOperationQueue alloc]init];
-        [fOpQueue setQualityOfService:NSOperationQualityOfServiceUserInteractive];
+        if ([fOpQueue respondsToSelector:@selector(setQualityOfService:)])
+        {
+            [fOpQueue setQualityOfService:NSOperationQualityOfServiceUserInteractive];
+        }
     }
     return self;
 }
@@ -68,6 +72,12 @@
          }
      }];
 
+}
+
+-(void)restart
+{
+    isRunning = TRUE;
+    fTimer->startTimer();
 }
 
 -(void)stopTimer

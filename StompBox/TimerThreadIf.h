@@ -29,6 +29,11 @@
 @interface TimerThreadIf : NSObject
 
 /**
+ * Is the timer running.
+ */
+@property (atomic)bool isRunning;
+
+/**
  * The delay in ms that the timer is currently running on.
  */
 @property (atomic)uint32_t fDelayMs;
@@ -58,6 +63,11 @@
  * Setup the delay, and start the timer.
  */
 -(void)startTimer;
+
+/**
+ * Restart the timer with whatever delay has been set.
+ */
+-(void)restart;
 
 /**
  * Stop the timer.
