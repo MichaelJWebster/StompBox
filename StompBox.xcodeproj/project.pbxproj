@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1A41381AB576C200BB3225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A41371AB576C200BB3225 /* main.m */; };
+		7B1A413C1AB576DE00BB3225 /* DelaySample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE00DC1AB42BDE0090CF28 /* DelaySample.m */; };
+		7B1A413D1AB576DE00BB3225 /* CalcDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5BF4311AB5370C00284CCB /* CalcDelay.m */; };
+		7B5BF4321AB5370C00284CCB /* CalcDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5BF4311AB5370C00284CCB /* CalcDelay.m */; };
 		7B759B111A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */; };
 		7B759B121A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */; };
 		7B759B151A87233D003C19EB /* Jewel1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B131A87233D003C19EB /* Jewel1.jpeg */; };
@@ -15,6 +19,11 @@
 		7B759B181A87233D003C19EB /* jewel2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B141A87233D003C19EB /* jewel2.jpeg */; };
 		7B759B1A1A87245F003C19EB /* yellow-light-bulb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B191A87245F003C19EB /* yellow-light-bulb.jpg */; };
 		7B759B1B1A87245F003C19EB /* yellow-light-bulb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B759B191A87245F003C19EB /* yellow-light-bulb.jpg */; };
+		7B8710EC1A9061580042FA78 /* TimerOld.mbak in Sources */ = {isa = PBXBuildFile; fileRef = 7B8710EB1A9061580042FA78 /* TimerOld.mbak */; };
+		7BBE00D71AB428070090CF28 /* TimerThreaded.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE00D11AB428070090CF28 /* TimerThreaded.mm */; };
+		7BBE00D81AB428070090CF28 /* TimerThreadIf.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE00D31AB428070090CF28 /* TimerThreadIf.mm */; };
+		7BBE00D91AB428070090CF28 /* TR.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE00D51AB428070090CF28 /* TR.m */; };
+		7BBE00DD1AB42BDE0090CF28 /* DelaySample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE00DC1AB42BDE0090CF28 /* DelaySample.m */; };
 		7BF2E8551A85E99400777FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8541A85E99400777FDE /* Foundation.framework */; };
 		7BF2E8571A85E99400777FDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8561A85E99400777FDE /* CoreGraphics.framework */; };
 		7BF2E8591A85E99400777FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2E8581A85E99400777FDE /* UIKit.framework */; };
@@ -42,11 +51,43 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7B1A41331AB576C200BB3225 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7B1A41351AB576C200BB3225 /* TestDelay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestDelay; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1A41371AB576C200BB3225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B5BF4301AB5340B00284CCB /* CalcDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcDelay.h; sourceTree = "<group>"; };
+		7B5BF4311AB5370C00284CCB /* CalcDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcDelay.m; sourceTree = "<group>"; };
+		7B5BF4391AB543F900284CCB /* DelayLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelayLib.h; sourceTree = "<group>"; };
+		7B5BF43B1AB543F900284CCB /* DelayLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelayLib.m; sourceTree = "<group>"; };
+		7B5BF4411AB543F900284CCB /* DelayLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelayLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5BF4471AB543F900284CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5BF4521AB544A100284CCB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		7B759B101A87127D003C19EB /* Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wooden_Cabinet_Texture_by_The_Auteur_Stock.jpg; sourceTree = "<group>"; };
 		7B759B131A87233D003C19EB /* Jewel1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jewel1.jpeg; sourceTree = "<group>"; };
 		7B759B141A87233D003C19EB /* jewel2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jewel2.jpeg; sourceTree = "<group>"; };
 		7B759B191A87245F003C19EB /* yellow-light-bulb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "yellow-light-bulb.jpg"; sourceTree = "<group>"; };
+		7B8710E91A9060FD0042FA78 /* TimerOLD.hbak */ = {isa = PBXFileReference; lastKnownFileType = text; name = TimerOLD.hbak; path = Timer/TimerOLD.hbak; sourceTree = "<group>"; };
+		7B8710EB1A9061580042FA78 /* TimerOld.mbak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TimerOld.mbak; path = Timer/TimerOld.mbak; sourceTree = "<group>"; };
+		7BBE00D01AB428070090CF28 /* TimerThreaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerThreaded.h; sourceTree = "<group>"; };
+		7BBE00D11AB428070090CF28 /* TimerThreaded.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TimerThreaded.mm; sourceTree = "<group>"; };
+		7BBE00D21AB428070090CF28 /* TimerThreadIf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerThreadIf.h; sourceTree = "<group>"; };
+		7BBE00D31AB428070090CF28 /* TimerThreadIf.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TimerThreadIf.mm; sourceTree = "<group>"; };
+		7BBE00D41AB428070090CF28 /* TickResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickResponder.h; sourceTree = "<group>"; };
+		7BBE00D51AB428070090CF28 /* TR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TR.m; sourceTree = "<group>"; };
+		7BBE00D61AB428070090CF28 /* TR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TR.h; sourceTree = "<group>"; };
+		7BBE00DB1AB429FC0090CF28 /* DelaySample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaySample.h; sourceTree = "<group>"; };
+		7BBE00DC1AB42BDE0090CF28 /* DelaySample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaySample.m; sourceTree = "<group>"; };
 		7BF2E8511A85E99400777FDE /* StompBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StompBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF2E8541A85E99400777FDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BF2E8561A85E99400777FDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,6 +111,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7B1A41321AB576C200BB3225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5BF43E1AB543F900284CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BF2E84E1A85E99400777FDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,11 +148,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B1A41361AB576C200BB3225 /* TestDelay */ = {
+			isa = PBXGroup;
+			children = (
+				7B1A41371AB576C200BB3225 /* main.m */,
+			);
+			path = TestDelay;
+			sourceTree = "<group>";
+		};
+		7B5BF4381AB543F900284CCB /* DelayLib */ = {
+			isa = PBXGroup;
+			children = (
+				7B5BF4391AB543F900284CCB /* DelayLib.h */,
+				7B5BF43B1AB543F900284CCB /* DelayLib.m */,
+			);
+			path = DelayLib;
+			sourceTree = "<group>";
+		};
+		7B5BF4451AB543F900284CCB /* DelayLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B5BF4461AB543F900284CCB /* Supporting Files */,
+			);
+			path = DelayLibTests;
+			sourceTree = "<group>";
+		};
+		7B5BF4461AB543F900284CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B5BF4471AB543F900284CCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B8710EA1A90612E0042FA78 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				7BBE00D01AB428070090CF28 /* TimerThreaded.h */,
+				7BBE00D11AB428070090CF28 /* TimerThreaded.mm */,
+				7BBE00D21AB428070090CF28 /* TimerThreadIf.h */,
+				7BBE00D31AB428070090CF28 /* TimerThreadIf.mm */,
+				7BBE00D41AB428070090CF28 /* TickResponder.h */,
+				7BBE00D51AB428070090CF28 /* TR.m */,
+				7BBE00D61AB428070090CF28 /* TR.h */,
+				7B8710E91A9060FD0042FA78 /* TimerOLD.hbak */,
+				7B8710EB1A9061580042FA78 /* TimerOld.mbak */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		7BBE00DA1AB4291B0090CF28 /* DelayCalc */ = {
+			isa = PBXGroup;
+			children = (
+				7BBE00DB1AB429FC0090CF28 /* DelaySample.h */,
+				7BBE00DC1AB42BDE0090CF28 /* DelaySample.m */,
+				7B5BF4301AB5340B00284CCB /* CalcDelay.h */,
+				7B5BF4311AB5370C00284CCB /* CalcDelay.m */,
+			);
+			name = DelayCalc;
+			sourceTree = "<group>";
+		};
 		7BF2E8481A85E99400777FDE = {
 			isa = PBXGroup;
 			children = (
 				7BF2E85A1A85E99400777FDE /* StompBox */,
 				7BF2E87C1A85E99500777FDE /* StompBoxTests */,
+				7B5BF4381AB543F900284CCB /* DelayLib */,
+				7B5BF4451AB543F900284CCB /* DelayLibTests */,
+				7B1A41361AB576C200BB3225 /* TestDelay */,
 				7BF2E8531A85E99400777FDE /* Frameworks */,
 				7BF2E8521A85E99400777FDE /* Products */,
 			);
@@ -108,6 +226,8 @@
 			children = (
 				7BF2E8511A85E99400777FDE /* StompBox.app */,
 				7BF2E8751A85E99500777FDE /* StompBoxTests.xctest */,
+				7B5BF4411AB543F900284CCB /* DelayLibTests.xctest */,
+				7B1A41351AB576C200BB3225 /* TestDelay */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +235,7 @@
 		7BF2E8531A85E99400777FDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B5BF4521AB544A100284CCB /* CoreFoundation.framework */,
 				7BF2E8541A85E99400777FDE /* Foundation.framework */,
 				7BF2E8561A85E99400777FDE /* CoreGraphics.framework */,
 				7BF2E8581A85E99400777FDE /* UIKit.framework */,
@@ -126,6 +247,8 @@
 		7BF2E85A1A85E99400777FDE /* StompBox */ = {
 			isa = PBXGroup;
 			children = (
+				7BBE00DA1AB4291B0090CF28 /* DelayCalc */,
+				7B8710EA1A90612E0042FA78 /* Timer */,
 				7B759B191A87245F003C19EB /* yellow-light-bulb.jpg */,
 				7B759B131A87233D003C19EB /* Jewel1.jpeg */,
 				7B759B141A87233D003C19EB /* jewel2.jpeg */,
@@ -174,6 +297,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7B1A41341AB576C200BB3225 /* TestDelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1A41391AB576C200BB3225 /* Build configuration list for PBXNativeTarget "TestDelay" */;
+			buildPhases = (
+				7B1A41311AB576C200BB3225 /* Sources */,
+				7B1A41321AB576C200BB3225 /* Frameworks */,
+				7B1A41331AB576C200BB3225 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestDelay;
+			productName = TestDelay;
+			productReference = 7B1A41351AB576C200BB3225 /* TestDelay */;
+			productType = "com.apple.product-type.tool";
+		};
+		7B5BF4401AB543F900284CCB /* DelayLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5BF44B1AB543F900284CCB /* Build configuration list for PBXNativeTarget "DelayLibTests" */;
+			buildPhases = (
+				7B5BF43D1AB543F900284CCB /* Sources */,
+				7B5BF43E1AB543F900284CCB /* Frameworks */,
+				7B5BF43F1AB543F900284CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelayLibTests;
+			productName = DelayLibTests;
+			productReference = 7B5BF4411AB543F900284CCB /* DelayLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7BF2E8501A85E99400777FDE /* StompBox */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BF2E8861A85E99500777FDE /* Build configuration list for PBXNativeTarget "StompBox" */;
@@ -218,6 +375,12 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mike Webster Ltd.";
 				TargetAttributes = {
+					7B1A41341AB576C200BB3225 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7B5BF4401AB543F900284CCB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					7BF2E8741A85E99500777FDE = {
 						TestTargetID = 7BF2E8501A85E99400777FDE;
 					};
@@ -238,11 +401,20 @@
 			targets = (
 				7BF2E8501A85E99400777FDE /* StompBox */,
 				7BF2E8741A85E99500777FDE /* StompBoxTests */,
+				7B5BF4401AB543F900284CCB /* DelayLibTests */,
+				7B1A41341AB576C200BB3225 /* TestDelay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7B5BF43F1AB543F900284CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BF2E84F1A85E99400777FDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,13 +445,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7B1A41311AB576C200BB3225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1A413C1AB576DE00BB3225 /* DelaySample.m in Sources */,
+				7B1A413D1AB576DE00BB3225 /* CalcDelay.m in Sources */,
+				7B1A41381AB576C200BB3225 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5BF43D1AB543F900284CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BF2E84D1A85E99400777FDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7BF2E86E1A85E99400777FDE /* ViewController.m in Sources */,
+				7BBE00DD1AB42BDE0090CF28 /* DelaySample.m in Sources */,
 				7BF2E8651A85E99400777FDE /* AppDelegate.m in Sources */,
+				7BBE00D81AB428070090CF28 /* TimerThreadIf.mm in Sources */,
+				7BBE00D91AB428070090CF28 /* TR.m in Sources */,
 				7BF2E8611A85E99400777FDE /* main.m in Sources */,
+				7B8710EC1A9061580042FA78 /* TimerOld.mbak in Sources */,
+				7BBE00D71AB428070090CF28 /* TimerThreaded.mm in Sources */,
+				7B5BF4321AB5370C00284CCB /* CalcDelay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +532,73 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7B1A413A1AB576C200BB3225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7B1A413B1AB576C200BB3225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7B5BF44C1AB543F900284CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DelayLibTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B5BF44D1AB543F900284CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DelayLibTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		7BF2E8841A85E99500777FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -482,6 +744,23 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7B1A41391AB576C200BB3225 /* Build configuration list for PBXNativeTarget "TestDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1A413A1AB576C200BB3225 /* Debug */,
+				7B1A413B1AB576C200BB3225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B5BF44B1AB543F900284CCB /* Build configuration list for PBXNativeTarget "DelayLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5BF44C1AB543F900284CCB /* Debug */,
+				7B5BF44D1AB543F900284CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7BF2E84C1A85E99400777FDE /* Build configuration list for PBXProject "StompBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

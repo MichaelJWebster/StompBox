@@ -4,14 +4,39 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DelayLib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>StompBox.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TestDelay.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>7B1A41341AB576C200BB3225</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B5BF4361AB543F900284CCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B5BF4401AB543F900284CCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7BF2E8501A85E99400777FDE</key>
 		<dict>
 			<key>primary</key>
