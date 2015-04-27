@@ -5,5 +5,73 @@
 //  Created by Michael Webster on 15/02/2015.
 //  Copyright (c) 2015 Mike Webster Ltd. All rights reserved.
 //
-
 #import <Foundation/Foundation.h>
+#import "Timer.h"
+
+@interface Timer ()
+-(NSTimeInterval) calculateNewInterval:(NSTimeInterval) newInterval;
+@end
+
+@implementation Timer
+{
+    /**
+     * @brief An array of timing intervals contributing to the current interval.
+     */
+    NSMutableArray* intervals;
+    
+    /**
+     * @brief The time the tap events started.
+     */
+    NSDate* startTime;
+    
+    
+}
+@synthesize isStarted;
+@synthesize isCurrentAvailable;
+@synthesize currentInterval;
+
+
+
+-(id)init
+{
+    if (self = [super init])
+    {
+        
+        intervals = [NSMutableArray array];
+        isStarted = false;
+        isCurrentAvailable = false;
+        startTime = nil;
+    }
+    return self;
+}
+
+-(void)resetTimer
+{
+    [intervals removeAllObjects];
+    isStarted = false;
+    startTime = nil;
+}
+
+-(void)newTap:(NSTimeInterval)tapTime
+{
+    if (!isStarted)
+    {
+        isStarted = true;
+        isCurrentAvailable = false;
+        startTime = [NSDate date];
+    }
+    else
+    {
+        currentInterval = [self calculateNewInterval:tapTime];
+        
+    }
+    
+}
+
+-(NSTimeInterval)calculateNewInterval:(NSTimeInterval)newInterval
+{
+    return 0;
+}
+
+@end
+

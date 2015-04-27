@@ -5,9 +5,33 @@
 //  Created by Michael Webster on 15/02/2015.
 //  Copyright (c) 2015 Mike Webster Ltd. All rights reserved.
 //
-
 #ifndef StompBox_Timer_h
 #define StompBox_Timer_h
+#import <Foundation/Foundation.h>
 
+@interface Timer : NSObject
+
+@property (atomic)bool isStarted;
+@property (atomic)bool isCurrentAvailable;
+@property (atomic)NSTimeInterval currentInterval;
+
+/**
+ * @brief The default initialization.
+ */
+-(id) init;
+
+/**
+ * @brief Reset the timer to unstarted with no current interval.
+ */
+-(void)resetTimer;
+
+/**
+ * @brief Interpret the new tap received, and recalculate the currentInterval
+ * as required.
+ */
+-(void)newTap: (NSTimeInterval) tapTime;
+
+
+@end
 
 #endif
